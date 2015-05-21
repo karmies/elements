@@ -16,4 +16,10 @@ FOUNDATION_EXPORT const unsigned char ElementsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Elements/PublicHeader.h>
 
+#import <Elements/EMInMemoryImageCache.h>
 
+#import <Elements/EMViewControllerPresentationContext.h>
+#import <Elements/EMUserInterface.h>
+#import <Elements/EMNavigationBar.h>
+#import <Elements/EMStatusBar.h>
+#import <Elements/EMViewController.h>

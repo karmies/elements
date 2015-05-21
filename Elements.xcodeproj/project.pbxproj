@@ -7,9 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D051B0CF1B029731003AFD52 /* EMViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0CD1B029731003AFD52 /* EMViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0D01B029731003AFD52 /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0CE1B029731003AFD52 /* EMViewController.m */; };
+		D051B0DA1B029879003AFD52 /* EMViewControllerPresentationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0D81B029879003AFD52 /* EMViewControllerPresentationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0DE1B029946003AFD52 /* EMStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0DC1B029946003AFD52 /* EMStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0DF1B029946003AFD52 /* EMStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0DD1B029946003AFD52 /* EMStatusBar.m */; };
+		D051B0E31B029D68003AFD52 /* EMUserInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0E11B029D68003AFD52 /* EMUserInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0E41B029D68003AFD52 /* EMUserInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0E21B029D68003AFD52 /* EMUserInterface.m */; };
+		D051B0E81B029DE6003AFD52 /* EMNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0E61B029DE6003AFD52 /* EMNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D051B0E91B029DE6003AFD52 /* EMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0E71B029DE6003AFD52 /* EMNavigationBar.m */; };
+		D051B0EC1B029F8F003AFD52 /* EMStatusBarWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0EA1B029F8F003AFD52 /* EMStatusBarWindow.h */; };
+		D051B0ED1B029F8F003AFD52 /* EMStatusBarWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0EB1B029F8F003AFD52 /* EMStatusBarWindow.m */; };
+		D051B0F91B0379DD003AFD52 /* EMStatusBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = D051B0F71B0379DD003AFD52 /* EMStatusBarController.h */; };
+		D051B0FA1B0379DD003AFD52 /* EMStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D051B0F81B0379DD003AFD52 /* EMStatusBarController.m */; };
+		D079AB8D1AF2749500076F59 /* EMImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D079AB8B1AF2749500076F59 /* EMImage.h */; };
+		D079AB8E1AF2749500076F59 /* EMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D079AB8C1AF2749500076F59 /* EMImage.m */; };
 		D0DCF5D11AEED26300D5B7A1 /* Elements.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCF5D01AEED26300D5B7A1 /* Elements.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0DCF5D71AEED26300D5B7A1 /* Elements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DCF5CB1AEED26300D5B7A1 /* Elements.framework */; };
 		D0DCF5DE1AEED26300D5B7A1 /* ElementsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DCF5DD1AEED26300D5B7A1 /* ElementsTests.m */; };
+		D0DCF5F61AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCF5F41AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DCF5F71AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DCF5F51AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m */; };
+		D0DCF5FA1AEF001A00D5B7A1 /* EMImageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCF5F81AEF001A00D5B7A1 /* EMImageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DCF5FB1AEF001A00D5B7A1 /* EMImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DCF5F91AEF001A00D5B7A1 /* EMImageData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +42,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D051B0CD1B029731003AFD52 /* EMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
+		D051B0CE1B029731003AFD52 /* EMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
+		D051B0D81B029879003AFD52 /* EMViewControllerPresentationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewControllerPresentationContext.h; sourceTree = "<group>"; };
+		D051B0DC1B029946003AFD52 /* EMStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStatusBar.h; sourceTree = "<group>"; };
+		D051B0DD1B029946003AFD52 /* EMStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStatusBar.m; sourceTree = "<group>"; };
+		D051B0E11B029D68003AFD52 /* EMUserInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMUserInterface.h; sourceTree = "<group>"; };
+		D051B0E21B029D68003AFD52 /* EMUserInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMUserInterface.m; sourceTree = "<group>"; };
+		D051B0E61B029DE6003AFD52 /* EMNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMNavigationBar.h; sourceTree = "<group>"; };
+		D051B0E71B029DE6003AFD52 /* EMNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMNavigationBar.m; sourceTree = "<group>"; };
+		D051B0EA1B029F8F003AFD52 /* EMStatusBarWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStatusBarWindow.h; sourceTree = "<group>"; };
+		D051B0EB1B029F8F003AFD52 /* EMStatusBarWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStatusBarWindow.m; sourceTree = "<group>"; };
+		D051B0F71B0379DD003AFD52 /* EMStatusBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStatusBarController.h; sourceTree = "<group>"; };
+		D051B0F81B0379DD003AFD52 /* EMStatusBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStatusBarController.m; sourceTree = "<group>"; };
+		D079AB8B1AF2749500076F59 /* EMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImage.h; sourceTree = "<group>"; };
+		D079AB8C1AF2749500076F59 /* EMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMImage.m; sourceTree = "<group>"; };
 		D0DCF5CB1AEED26300D5B7A1 /* Elements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Elements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DCF5CF1AEED26300D5B7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DCF5D01AEED26300D5B7A1 /* Elements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Elements.h; sourceTree = "<group>"; };
 		D0DCF5D61AEED26300D5B7A1 /* ElementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DCF5DC1AEED26300D5B7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DCF5DD1AEED26300D5B7A1 /* ElementsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementsTests.m; sourceTree = "<group>"; };
+		D0DCF5F41AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMInMemoryImageCache.h; sourceTree = "<group>"; };
+		D0DCF5F51AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMInMemoryImageCache.m; sourceTree = "<group>"; };
+		D0DCF5F81AEF001A00D5B7A1 /* EMImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMImageData.h; sourceTree = "<group>"; };
+		D0DCF5F91AEF001A00D5B7A1 /* EMImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMImageData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +88,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D051B0D11B029735003AFD52 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0E51B029D7C003AFD52 /* Presentation Context */,
+				D051B0E61B029DE6003AFD52 /* EMNavigationBar.h */,
+				D051B0E71B029DE6003AFD52 /* EMNavigationBar.m */,
+				D051B0DC1B029946003AFD52 /* EMStatusBar.h */,
+				D051B0DD1B029946003AFD52 /* EMStatusBar.m */,
+				D051B0CD1B029731003AFD52 /* EMViewController.h */,
+				D051B0CE1B029731003AFD52 /* EMViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		D051B0D31B0297F3003AFD52 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0E01B029D4C003AFD52 /* Utils */,
+				D051B0D11B029735003AFD52 /* View Controller */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D051B0E01B029D4C003AFD52 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0F51B037999003AFD52 /* User Interface */,
+				D051B0F61B0379A3003AFD52 /* Status Bar */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D051B0E51B029D7C003AFD52 /* Presentation Context */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0D81B029879003AFD52 /* EMViewControllerPresentationContext.h */,
+			);
+			name = "Presentation Context";
+			sourceTree = "<group>";
+		};
+		D051B0F51B037999003AFD52 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0E11B029D68003AFD52 /* EMUserInterface.h */,
+				D051B0E21B029D68003AFD52 /* EMUserInterface.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		D051B0F61B0379A3003AFD52 /* Status Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D051B0EA1B029F8F003AFD52 /* EMStatusBarWindow.h */,
+				D051B0EB1B029F8F003AFD52 /* EMStatusBarWindow.m */,
+				D051B0F71B0379DD003AFD52 /* EMStatusBarController.h */,
+				D051B0F81B0379DD003AFD52 /* EMStatusBarController.m */,
+			);
+			name = "Status Bar";
+			sourceTree = "<group>";
+		};
 		D0DCF5C11AEED26300D5B7A1 = {
 			isa = PBXGroup;
 			children = (
+				D0DCF5F31AEEFE8400D5B7A1 /* In-Memory Cache */,
+				D051B0D31B0297F3003AFD52 /* User Interface */,
 				D0DCF5CD1AEED26300D5B7A1 /* Elements */,
 				D0DCF5DA1AEED26300D5B7A1 /* ElementsTests */,
 				D0DCF5CC1AEED26300D5B7A1 /* Products */,
@@ -102,6 +202,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D0DCF5F31AEEFE8400D5B7A1 /* In-Memory Cache */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCF5F41AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h */,
+				D0DCF5F51AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m */,
+				D0DCF5F81AEF001A00D5B7A1 /* EMImageData.h */,
+				D0DCF5F91AEF001A00D5B7A1 /* EMImageData.m */,
+				D079AB8B1AF2749500076F59 /* EMImage.h */,
+				D079AB8C1AF2749500076F59 /* EMImage.m */,
+			);
+			name = "In-Memory Cache";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -109,7 +222,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D051B0EC1B029F8F003AFD52 /* EMStatusBarWindow.h in Headers */,
+				D051B0DE1B029946003AFD52 /* EMStatusBar.h in Headers */,
+				D051B0E81B029DE6003AFD52 /* EMNavigationBar.h in Headers */,
+				D051B0E31B029D68003AFD52 /* EMUserInterface.h in Headers */,
+				D079AB8D1AF2749500076F59 /* EMImage.h in Headers */,
+				D051B0F91B0379DD003AFD52 /* EMStatusBarController.h in Headers */,
+				D051B0DA1B029879003AFD52 /* EMViewControllerPresentationContext.h in Headers */,
+				D051B0CF1B029731003AFD52 /* EMViewController.h in Headers */,
 				D0DCF5D11AEED26300D5B7A1 /* Elements.h in Headers */,
+				D0DCF5FA1AEF001A00D5B7A1 /* EMImageData.h in Headers */,
+				D0DCF5F61AEEFE9E00D5B7A1 /* EMInMemoryImageCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0DCF5F71AEEFE9E00D5B7A1 /* EMInMemoryImageCache.m in Sources */,
+				D051B0ED1B029F8F003AFD52 /* EMStatusBarWindow.m in Sources */,
+				D051B0DF1B029946003AFD52 /* EMStatusBar.m in Sources */,
+				D051B0E91B029DE6003AFD52 /* EMNavigationBar.m in Sources */,
+				D051B0E41B029D68003AFD52 /* EMUserInterface.m in Sources */,
+				D079AB8E1AF2749500076F59 /* EMImage.m in Sources */,
+				D051B0D01B029731003AFD52 /* EMViewController.m in Sources */,
+				D051B0FA1B0379DD003AFD52 /* EMStatusBarController.m in Sources */,
+				D0DCF5FB1AEF001A00D5B7A1 /* EMImageData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +461,7 @@
 				INFOPLIST_FILE = Elements/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -344,6 +477,7 @@
 				INFOPLIST_FILE = Elements/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -398,6 +532,7 @@
 				D0DCF5E31AEED26300D5B7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0DCF5E41AEED26300D5B7A1 /* Build configuration list for PBXNativeTarget "ElementsTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +541,7 @@
 				D0DCF5E61AEED26300D5B7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
