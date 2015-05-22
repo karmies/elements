@@ -67,9 +67,10 @@
 {
     if (key != nil)
     {
-        pthread_mutex_lock(&_lock);
         UIImage *image = nil;
         EMImageData *imageData = [[EMImageData alloc] initWithSize:size generator:generator image:&image];
+        
+        pthread_mutex_lock(&_lock);
         _dict[key] = imageData;
         [self _addResidentImage:image forKey:key];
         pthread_mutex_unlock(&_lock);
