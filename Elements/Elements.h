@@ -23,3 +23,4 @@ FOUNDATION_EXPORT const unsigned char ElementsVersionString[];
 #import <Elements/EMNavigationBar.h>
 #import <Elements/EMStatusBar.h>
 #import <Elements/EMViewController.h>
+#import <Elements/EMImageData.h>
